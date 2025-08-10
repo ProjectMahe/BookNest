@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile — BookNest</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">📚 BookNest</a>
+      <nav>
+        <a href="discover.html">Discover</a>
+        <a href="swap.html">Swap</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="profile.html" class="btn">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container profile-page">
+    <section class="profile-card">
+      <div>
+        <h2 id="profileName">Reader</h2>
+        <p id="profileBio">Avid reader & local book swapper.</p>
+        <button id="editProfile" class="btn">Edit Profile</button>
+      </div>
+      <div class="profile-stats">
+        <div><strong id="booksCount">0</strong><span>Books listed</span></div>
+        <div><strong id="swapsCount">0</strong><span>Successful swaps</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Your Listed Books</h3>
+      <div id="yourBooks" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 BookNest</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
