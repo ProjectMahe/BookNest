@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>List a Book — BookNest</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">📚 BookNest</a>
+      <nav>
+        <a href="discover.html">Discover</a>
+        <a href="swap.html">Swap</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="profile.html" class="btn">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>List Your Book for Swap</h2>
+    <form id="swapForm" class="form-card">
+      <label>Title<input name="title" required></label>
+      <label>Author<input name="author" required></label>
+      <label>Genre<input name="genre"></label>
+      <label>Condition<select name="condition"><option>Like New</option><option>Good</option><option>Fair</option></select></label>
+      <label>Location<input name="location" placeholder="City or area"></label>
+      <label>Description<textarea name="description"></textarea></label>
+      <button class="btn" type="submit">List Book</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 BookNest</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
