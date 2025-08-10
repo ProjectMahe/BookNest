@@ -3,6 +3,8 @@ BookNest - Personalized Book Discovery &amp; Swap
 
 # Responsive Homepage (Desktop & Mobile)
 
+## Youtube Video:
+( https://youtube.com/shorts/xwcOoJ2GfJE?si=7VJrKBzXXYASztTf )
 ## 📖 Overview
 This project is a **fully responsive homepage** designed to deliver a seamless and visually appealing user experience across both **desktop** and **mobile devices**.  
 It focuses purely on **frontend design**, ensuring the best UI/UX for a modern web application.
@@ -20,10 +22,10 @@ It focuses purely on **frontend design**, ensuring the best UI/UX for a modern w
 
 ## 🖼 Screenshots
 ### 📌 Desktop View
-![Desktop Screenshot](screenshots/desktop-view.png)
+![Desktop Screenshot](assets/Desktop%20Homepage.jpg)
 
 ### 📌 Mobile View
-![Mobile Screenshot](screenshots/mobile-view.png)
+![Mobile Screenshot](assets/Mobile%20Homepage.jpg)
 
 ---
 
@@ -35,3 +37,12 @@ It focuses purely on **frontend design**, ensuring the best UI/UX for a modern w
 ---
 
 ## 📂 File Structure
+
+
+
+---
+
+## 🚀 Getting Started
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/username/project-name.git
