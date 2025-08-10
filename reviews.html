@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community Reviews — BookNest</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">📚 BookNest</a>
+      <nav>
+        <a href="discover.html">Discover</a>
+        <a href="swap.html">Swap</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="profile.html" class="btn">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Community Reviews</h2>
+    <div id="reviewsList"></div>
+    <h3>Leave a review</h3>
+    <form id="reviewForm" class="form-card">
+      <label>Your name<input name="name" required></label>
+      <label>Rating<select name="rating"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></label>
+      <label>Comment<textarea name="comment"></textarea></label>
+      <button class="btn" type="submit">Submit Review</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 BookNest</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
